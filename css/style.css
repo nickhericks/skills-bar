@@ -1,0 +1,39 @@
+body {
+  background-color: lightgrey;
+}
+
+.container {
+  background-color: white;
+  width: 500px;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.bar-container {
+  margin: 1rem;
+  background-color: lightgrey;
+  padding: 1px;
+  overflow: hidden;
+}
+
+.bar {
+  border-radius: 1rem;
+  position: relative;
+  right: 10px;
+}
+
+.one {
+  background: red;
+  height: 20px;
+/*   width: 50%; */
+}
+
+.two {
+  background: green;
+  height: 20px;
+}
+
+.three {
+  background: blue;
+  height: 20px;
+}
